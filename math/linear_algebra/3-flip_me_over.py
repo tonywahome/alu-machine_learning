@@ -14,3 +14,4 @@ def matrix_transpose(matrix):
             new_row.append(matrix[row][col])
         transposed.append(new_row)
     return transposed
+
