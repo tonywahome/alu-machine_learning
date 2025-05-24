@@ -4,7 +4,6 @@ Module for calculating the shape of a NumPy array.
 
 np_shape function calculates the shape of a NumPy array.
 """
-
 def np_shape(matrix):
     """
     Calculates the shape of a numpy array.
