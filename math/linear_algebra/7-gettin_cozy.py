@@ -45,4 +45,3 @@ def cat_matrices2D(mat1, mat2, axis=0):
         for r in range(rows1):
             result.append(mat1[r] + mat2[r])
         return result
-    
