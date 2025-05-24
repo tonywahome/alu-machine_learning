@@ -15,4 +15,3 @@ def np_transpose(matrix):
         A numpy array representing the transpose of the input matrix.
     """
     return matrix.transpose()
-    
