@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
-import numpy as np
+"""
+Module for transposing a matrix.
+
+np_transpose function returns the transposed version of a given NumPy array.
+"""
 
 
-def transpose(matrix):
-    """
-    Transposes a 2D list (matrix) using zip(*...).
-
+def np_transpose(matrix):
+    """Transposes a matrix
     Args:
-        matrix (list of lists): Input matrix.
+        matrix: A numpy array to be transposed.
 
     Returns:
-        list of lists: Transposed matrix.
+        A numpy array representing the transpose of the input matrix.
     """
-    return [list(row) for row in zip(*matrix)]
+    return matrix.transpose()
+    

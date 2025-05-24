@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Adds two 2D matrices element-wise.
+"""
+
+
 def add_matrices2D(mat1, mat2):
     """Adds two 2D matrices element-wise.
     Args:
