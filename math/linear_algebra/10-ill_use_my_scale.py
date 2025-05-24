@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Module for calculating the shape of a NumPy array.
+
+np_shape function calculates the shape of a NumPy array.
+"""
+
 def np_shape(matrix):
     """
     Calculates the shape of a numpy array.
@@ -7,4 +13,4 @@ def np_shape(matrix):
     Returns:
         tuple: A tuple representing the shape of the array.
     """
-    return matrix.shape
+    return tuple(matrix.shape)
