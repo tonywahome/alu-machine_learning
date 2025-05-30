@@ -1,6 +1,5 @@
-
 #!/usr/bin/env python3
-""" determinant """
+#""" determinant """
 
 
 def determinant(matrix):
