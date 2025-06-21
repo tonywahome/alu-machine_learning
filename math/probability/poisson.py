@@ -46,4 +46,3 @@ class Poisson:
         for i in range(k + 1):
             cdf += (lambtha ** i * e ** -lambtha) / factorial(i)
         return cdf
-    
