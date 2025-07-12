@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """ convolutions"""
 import numpy as np
